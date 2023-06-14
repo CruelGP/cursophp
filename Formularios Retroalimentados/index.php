@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form retro</title>
-    <link rel="stylesheet" href="styleform.css">
+    <link rel="stylesheet" href="../Global.css">
 </head>
 <body>
     <main>
