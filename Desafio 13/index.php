@@ -23,6 +23,9 @@
         $resto %= 10;
 
         $tot05 = floor($resto / 5);
+        $resto %= 5;
+
+        $tot01 = floor($resto /1);
         ?>
 
         <h1>Calculando o tempo em segundos</h1>
@@ -41,11 +44,11 @@
         <p>O caixa eletrônico vai te entregar as seguintes notas:</p>
         <ul>
             <td>
-                <li><img src="./imagem/100-reais.jpg" alt=""> <?php echo "$tot100"?></li>
-                <li> <img src="./imagem/50-reais.jpg" alt=""><?php echo "$tot50"?></li>
-                <li> <img src="./imagem/10-reais.jpg" alt=""><?php echo "$tot10"?></li>
-                <li> <img src="./imagem/5-reais.jpg" alt=""><?php echo "$tot05"?></li>
-                li> <img src="./imagem/" alt=""><?php echo "$tot05"?></li>
+                <li><img src="./imagem/100-reais.jpg" alt="nota de 100"> <?php echo "x$tot100"?></li>
+                <li> <img src="./imagem/50-reais.jpg" alt="nota de 50"><?php echo "x$tot50"?></li>
+                <li> <img src="./imagem/10-reais.jpg" alt="nota de 10"><?php echo "x$tot10"?></li>
+                <li> <img src="./imagem/5-reais.jpg" alt="nota de 5"><?php echo "x$tot05"?></li>
+                <li> <img src="./imagem/1-real.jpg" alt="nota de 1"><?php echo "x$tot01"?></li>
             </td>
         </ul>
     </section>
