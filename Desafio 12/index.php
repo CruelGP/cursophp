@@ -9,7 +9,7 @@
 <body>
     <section>
         <?php
-        $valor = $_GET['valor'];
+        $valor = $_GET['valor']??0;
         $sobra = $valor;
 
         $semana = (int) ($sobra / 604_800);
